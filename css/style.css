@@ -1,0 +1,470 @@
+* {
+    font-family: "Inter", sans-serif;
+}
+
+p {
+    color: #787878;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+button {
+    border: none;
+}
+
+/* Navbar css */
+.nav-link {
+    font-size: 18px;
+    font-weight: 500;
+    color: #4B4B4B;
+}
+
+.navbar-nav {
+    gap:  0px 60px;
+}
+
+.nav-btn {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    font-size: 24px;
+}
+
+.Btn {
+    padding: 16px 42px;
+    background-color: #E90024;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.navbar-nav li a:hover {
+    color: #E90024;
+}
+
+/* Navbar css */
+/* Bannar part css */
+.bannar-part h1 {
+    font-size: 65px;
+    font-weight: 600;
+    color: #1E1E1E;
+}
+
+.bannar-part h1 span {
+    color: #E90024;
+    font-weight: 800;
+}
+
+.bannar-part p {
+    width: 394px;
+    padding: 20px 0px;
+}
+
+.bannar-img {
+    position: relative;
+}
+
+.bg {
+    position: absolute;
+    top: 130px;
+    right: 24px;
+    z-index: -1;
+}
+
+/* Bannar part css */
+/* Instagram Likes */
+#Instagram-likes {
+    margin: 150px 0px;
+}
+
+.likes {
+    background-color: #F4F4F4;
+    padding: 95px 112px;
+    border-radius: 30px;
+    text-align: center;
+    position: relative;
+}
+
+.likes h2 {
+    font-size: 45px;
+    font-weight: 700;
+    color: #1E1E1E;
+}
+
+.text {
+    text-align: justify;
+}
+
+.bg-img {
+    position: absolute;
+    left: -23px;
+    bottom: -25px;
+    z-index: -1;
+}
+
+/* Instagram Likes */
+/* How Pump Insta Work */
+.sec-heading h2 {
+    font-size: 45px;
+    font-weight: 600;
+    color: #1E1E1E;
+    text-align: center;
+}
+
+.sec-heading p {
+    width: 751px;
+    text-align: center;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.card {
+    margin-top: 60px;
+    padding: 88px 60px;
+    width: 424px;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 0px 15px 50px #00000011;
+    transition: 0.3s linear;
+    cursor: pointer;
+}
+
+.card:hover {
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.413);
+    transform: scale(1.05);
+}
+
+/* How Pump Insta Work */
+/* Image part css */
+#image-part {
+    margin: 150px 0px;
+}
+
+.card h3 {
+    padding-top: 43px;
+    padding-bottom: 30px;
+    font-size: 25px;
+    font-weight: 600;
+    color: #1E1E1E;
+}
+
+.frame {
+    position: absolute;
+    bottom: -220px;
+    right: 0;
+    z-index: -1;
+}
+
+.video-part i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    color: #E90024;
+    width: 100px;
+    height: 100px;
+    background-color: #e900231f;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    animation: animate-pulse 3s linear infinite;
+    cursor: pointer
+}
+
+@keyframes animate-pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(255, 109, 74, 0.7), 0 0 0 0 #E90024;
+    }
+
+    40% {
+        box-shadow: 0 0 0 50px rgba(255, 109, 74, 0.0), 0 0 0 0 #e900234a;
+    }
+
+    80% {
+        box-shadow: 0 0 0 50px rgba(255, 109, 74, 0.0), 0 0 0 30px rgba(255, 109, 74, 0);
+    }
+
+    100% {
+        box-shadow: 0 0 0 0 rgba(255, 109, 74, 0.0), 0 0 0 30px rgba(255, 109, 74, 0);
+    }
+
+}
+
+
+/* Image part css */
+/* Why choose Pump Insta css */
+#pump-insta {
+    background-color: #F4F4F4;
+    padding: 150px 0px;
+}
+
+.card-1 {
+    padding: 70px 50px;
+    width: 424px;
+    border-radius: 30px;
+    box-shadow: 0px 15px 50px #00000011;
+    margin-top: 60px;
+    background-color: #FFFFFF;
+    transition: 0.4s ease-in;
+}
+
+.card-1 h3 {
+    font-size: 25px;
+    font-weight: 600;
+    color: #1E1E1E;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.card-1:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+
+}
+
+/* Why choose Pump Insta css */
+/* How Pump Insta Work css */
+#insta-work {
+    margin: 150px 0px;
+}
+
+.work-pricing {
+    width: 424px;
+    padding: 65px 90px;
+    text-align: center;
+    box-shadow: 0px 15px 50px #00000011;
+    border-radius: 30px;
+    margin-top: 60px;
+    cursor: pointer;
+    transition: 0.3s linear;
+}
+
+.work-pricing:hover h4 {
+    color: #E90024;
+}
+
+.work-pricing:hover .work-btn-2 {
+    background-color: #E90024;
+    color: #FFFFFF;
+}
+
+.work-pricing:hover {
+    transform: translateY(-12px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.336);
+}
+
+.work-btn {
+    font-size: 20px;
+    font-weight: 600;
+    color: #E90024;
+    padding: 11px 68px;
+    background-color: #e9002326;
+    border-radius: 5px;
+    transition: 0.3s linear;
+}
+
+.work-pricing h3 {
+    font-size: 25px;
+    font-weight: 600;
+    color: #1E1E1E;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.work-pricing li {
+    font-size: 16px;
+    font-weight: 400;
+    color: #787878;
+    list-style: none;
+}
+
+.work-pricing li i {
+    font-size: 24px;
+    color: #5EBD78;
+}
+
+.work-pricing h4 {
+    font-size: 45px;
+    font-weight: 700;
+    color: #1E1E1E;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.work-btn-2 {
+    padding: 16px 45px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #E90024;
+    border: 2px solid #E90024;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+}
+
+/* How Pump Insta Work css */
+/* Our Customer Rating */
+.Rating-card {
+    width: 424px;
+    padding: 41px 42px;
+    box-shadow: 0px 15px 50px #00000011;
+    border-radius: 30px;
+    margin-top: 60px;
+    transition: 0.3s linear;
+}
+
+.content {
+    width: 340px;
+    background-color: #F4F4F4;
+    padding: 35px 54px;
+    border-radius: 10px;
+    margin: 20px 0px;
+}
+
+.rating-text h4 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #4B4B4B;
+}
+
+.rating-text i {
+    color: #787878;
+    font-size: 24px;
+}
+
+.content i {
+    font-size: 18px;
+    color: #FFA723;
+    padding-bottom: 20px;
+}
+
+.content p {
+    padding-top: 20px;
+}
+
+.social-icon i {
+    font-size: 24px;
+    color: #787878;
+}
+
+.Rating-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.183);
+}
+
+/* Our Customer Rating */
+/* Everything You Need to Know */
+#need-to-part {
+    margin: 150px 0px;
+}
+
+.accordion {
+    margin-top: 50px;
+
+}
+.accordion-body {
+    font-size: 16px;
+    font-weight: 400;
+    color: #787878;
+}
+
+.accordion-button::after {
+    background-image: url(../images/plus.png);
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url(../images/minus.png);
+}
+
+.accordion-button:not(.collapsed) {
+    color: #E90024;
+    background-color: #FFFFFF;
+    box-shadow: none;
+}
+.accordion-button {
+    padding: 30px 27px;
+    font-size: 20px;
+    color: #1E1E1E;
+    font-weight: 600;
+    border-radius: 20px;
+    gap: 3px;
+}
+.accordion-item {
+    border: 3px solid #E4E7EC;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    background: #fff;
+}
+.accordion-item+.accordion-item {
+    border-top: 1px solid #E8E8E8;
+    border-radius: 20px;
+}
+.accordion-item:first-of-type {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+/* Everything You Need to Know */
+/* Footer part css */
+footer {
+    margin-top: 150px;
+    background-color: #F4F4F4;
+    padding: 150px 0px;
+}
+.footer-logo{
+    width: 366px;
+}
+.footer-logo i{
+    color: #0575B3;
+    font-size: 32px;
+}
+.footer-list h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #1E1E1E;
+    padding-bottom: 40px;
+}
+
+.footer-list ul {
+    line-height: 40px;
+    padding-left: 0;
+    margin-left: 0;
+}
+.footer-list li {
+    color: #787878;
+    font-size: 16px;
+    font-weight: 400;
+    list-style: none;
+}
+.footer-btn h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #1E1E1E;
+}
+.footer-btn p{
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.footer-btn input {
+    padding: 15px 18px;
+    border-radius: 10px;
+    border: none;
+}
+
+.footer-btn button {
+    padding: 15px 17px;
+    background-color: #E90024;
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+    border-radius: 10px;
+}
+.footer-logo p{
+    padding-top: 30px;
+    padding-bottom: 20px;
+
+}
+/* Footer part css */

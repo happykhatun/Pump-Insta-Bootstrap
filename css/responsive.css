@@ -1,0 +1,62 @@
+@media(max-width :576px) {
+
+.bannar-part h1 {
+    font-size: 40px;
+}
+.bannar-part p {
+    width: 362px;
+}
+.Btn {
+    padding: 11px 24px;
+    font-size: 15px;
+}
+#Instagram-likes {
+    margin: 70px 0px;
+}
+.likes h2 {
+    font-size: 36px;
+}
+.sec-heading h2 {
+    font-size: 30px;
+}
+p {
+    font-size: 13px;
+}
+.sec-heading p {
+    width: 350px;
+}
+.video-part i {
+    font-size: 60px;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+}
+#image-part {
+    margin: 120px 0px;
+}
+.text {
+    text-align: center;
+}
+#pump-insta {
+    padding: 100px 0px;
+}
+.accordion-button {
+    font-size: 12px;
+}
+.accordion-body {
+    font-size: 8px;
+}
+#need-to-part {
+    margin: 70px 0px;
+}
+footer {
+    margin-top: 70px;
+    padding: 86px 0px;
+}
+.gap-4 {
+    gap:0 !important;
+}
+}
+@media (min-width: 768px){
+    
+}
